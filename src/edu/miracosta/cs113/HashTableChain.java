@@ -394,7 +394,6 @@ public class HashTableChain<K, V> implements Map<K, V>
          * Removes the last item returned by a call to next.
          * If a call to remove is not preceded by a call to next,
          * it throws an IllegalStateException.
-         * @see java.util.Iterator#remove()
          */
         @Override
         public void remove() throws IllegalStateException
@@ -461,11 +460,6 @@ public class HashTableChain<K, V> implements Map<K, V>
             return oldVal;
         }
 
-        @Override
-        public boolean equals(Object other)
-        {
-            return other instanceof Entry && key.equals(((Entry<K, V>) other).key);
-        }
         @Override
         public String toString()
         {
