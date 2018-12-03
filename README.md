@@ -1,5 +1,6 @@
 # CS113-HW10-HashTable
 ## HW #10 for CS113 - HashTableChain w/ Map
+[![Build Status](https://travis-ci.com/MiraCostaCS-Nery/cs113-hw10-hashtable-arthurutnehmer.svg?token=N5NAyhrpuV9Ag1DXENbj&branch=master)](https://travis-ci.com/MiraCostaCS-Nery/cs113-hw10-hashtable-arthurutnehmer)
 
 Complete the `HashTableChain` from lecture/book (Section 7.4) so that it fully implements the [`java.util.Map`](https://docs.oracle.com/javase/7/docs/api/java/util/Map.html) interface (you may only omit/stub out the `putAll()` and `values()` methods, all other methods must be implemented).
 
