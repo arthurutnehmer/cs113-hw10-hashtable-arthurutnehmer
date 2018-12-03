@@ -19,7 +19,8 @@ import java.util.Set;
  * @author King
  * @version 1.0
  */
-public class HashTableChainTest {
+public class HashTableChainTest
+{
 
     /** Map implementation using integer values with String keys. */
     private Map<String, Integer> hashTable;
